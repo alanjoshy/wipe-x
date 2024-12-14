@@ -130,7 +130,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     const whatsappLink = document.getElementById("whatsapp-link");
-    const phoneNumber = "+971503944274";
+    const phoneNumber = "+91 9380798074";
 
     if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
         // For mobile devices, use the WhatsApp mobile link

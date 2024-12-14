@@ -1,6 +1,65 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+/* General Header Styling */
+.top-bar {
+    height: 120px; /* Adjust height as needed */
+    background-color: #f8f9fa; /* Optional: Adjust background color */
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    padding: 10px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 80px; /* Adjust logo size */
+    margin-right: 15px;
+}
+
+.logo h1 {
+    font-size: 24px; /* Adjust font size for better alignment */
+    margin: 0;
+    line-height: 1; /* Ensures proper vertical alignment */
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 span {
+    font-weight: normal;
+    font-size: 16px; /* Optional: Adjust the size of the subtitle */
+    margin-left: 5px;
+    color: #555; /* Adjust color for better contrast */
+}
+
+/* Top Bar Items Styling */
+.top-bar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.top-bar-icon i {
+    font-size: 24px; /* Adjust icon size */
+    color: #007bff; /* Icon color */
+}
+
+.top-bar-text h3 {
+    margin: 0;
+    font-size: 16px; /* Adjust text size */
+    font-weight: bold;
+}
+
+.top-bar-text p {
+    margin: 0;
+    font-size: 14px; /* Adjust text size */
+    color: #555;
+}
+
 body {
     color: #444444;
     font-weight: 400;
